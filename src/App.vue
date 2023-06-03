@@ -3,7 +3,6 @@
     <v-content>
       <v-container align-center>
         <TheHeader :goDark="goDark" @changeTheme="updateTheme($event)"/>
-
         <transition
           name="router-animation"
           mode="out-in"
@@ -19,42 +18,41 @@
 </template>
 
 <script>
-import TheHeader from "./components/TheHeader";
-import TheFooter from "./components/TheFooter";
+import TheHeader from './components/TheHeader'
+import TheFooter from './components/TheFooter'
 
 export default {
-  name: "App",
+  name: 'App',
   metaInfo: {
-    title: "Home",
-    titleTemplate: "%s ← Eldin's Space",
+    titleTemplate: "%s ← Tuan anhLee",
     meta: [
-      { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { name: "description", content: "Eldin Zaimovic's Portfolio" },
-      { charset: "utf-8" },
-      { property: "og:title", content: "Eldin' Space" },
-      { property: "og:site_name", content: "Eldin' Space" },
-      { property: "og:type", content: "website" },
-      { property: "og:url", content: "https://eldin.space" },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { name: 'description', content: "Tunanh's Portfolio" },
+      { charset: 'utf-8' },
+      { property: 'og:title', content: "Tuan anhLee" },
+      { property: 'og:site_name', content: "Tuan anhLee" },
+      { property: 'og:type', content: 'website' },
+      { property: 'og:url', content: 'https://eldin.space' },
       {
-        property: "og:image",
-        content: "https://i.imgur.com/Dcz2PGx.jpg"
+        property: 'og:image',
+        content: ''
       },
-      { property: "og:description", content: "Eldin Zaimovic's Portfolio" }
+      { property: 'og:description', content: "Tunanh's Portfolio" }
     ]
   },
   components: {
     TheHeader,
     TheFooter
   },
-  data() {
-    return { goDark: false };
+  data () {
+    return { goDark: false }
   },
   methods: {
-    updateTheme(updatedTheme) {
-      this.goDark = !updatedTheme;
+    updateTheme (updatedTheme) {
+      this.goDark = !updatedTheme
     }
   }
-};
+}
 </script>
 <style>
 @import "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css";

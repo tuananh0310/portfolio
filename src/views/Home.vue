@@ -3,7 +3,7 @@
     <VueCompareImage
       class="hidden-md-and-down"
       hover
-      :style="{ minWidth: '1300px' }"
+      :style="{ maxWidth: '277px', 'border-radius': '45%' }"
       :sliderLineWidth="sliderLine"
       :handleSize="hSize"
       :leftImage="leftImage"
@@ -13,7 +13,7 @@
     <VueCompareImage
       class="hidden-lg-and-up"
       hover
-      :style="{ maxWidth: '400px' }"
+      :style="{ maxWidth: '400px', 'border-radius': '45%' }"
       :sliderLineWidth="sliderLine"
       :handleSize="hSize"
       :leftImage="leftImage2"
@@ -23,7 +23,7 @@
 
     <br>
 
-    <vue-typer class="headline" :repeat="0" text="Eldin Zaimovic"></vue-typer>
+    <vue-typer class="headline" :repeat="0" text="Tuan anhLee"></vue-typer>
     <vue-typer
       :text="text1"
       :repeat="Infinity"
@@ -48,18 +48,15 @@
             </h3>
             <div>
               <p>
-                Hello! I’m Eldin Zaimovic. I'm a front-end developer who
-                is passionate about
-                <span
+                Hello! I’m Tuan anhLee. I'm a software developer who
+                is passionate about Php<span
                   class="green--text font-weight-bold"
                 >VUE</span>, building great user experiences,
                 fighting for simplicity over complexity and constantly learning.
-                When I'm not coding or making videos, you'll find me traveling across Europe.
               </p>
             </div>
           </div>
         </v-card-title>
-
         <v-card-actions class="hidden-sm-and-down">
           <v-btn
             v-for="icon in icons"
@@ -74,7 +71,6 @@
             <v-icon dark>{{icon.icon}}</v-icon>
           </v-btn>
         </v-card-actions>
-
         <v-card-actions class="hidden-md-and-up justify-center">
           <v-btn
             v-for="icon in icons"
@@ -102,20 +98,20 @@ import VueCompareImage from "vue-compare-image";
 export default {
   metaInfo: {
     title: "Home",
-    titleTemplate: "%s ← Eldin's Space",
+    titleTemplate: "%s ← Tuan anhLee",
     meta: [
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { name: "description", content: "Eldin Zaimovic's Portfolio" },
+      { name: "description", content: "Tuan anhLee's Portfolio" },
       { charset: "utf-8" },
-      { property: "og:title", content: "Eldin' Space" },
-      { property: "og:site_name", content: "Eldin' Space" },
+      { property: "og:title", content: "Tuan anhLee" },
+      { property: "og:site_name", content: "Tuan anhLee" },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "https://eldin.space" },
       {
         property: "og:image",
         content: "https://i.imgur.com/Dcz2PGx.jpg"
       },
-      { property: "og:description", content: "Eldin Zaimovic's Portfolio" }
+      { property: "og:description", content: "Tuan anhLee's Portfolio" }
     ]
   },
   components: {
@@ -125,7 +121,7 @@ export default {
   data() {
     return {
       icons: [
-        { href: "https://github.com/EldinZaimovic", icon: "fab fa-github" },
+        { href: "https://github.com/tuananh0310", icon: "fab fa-github" },
         {
           href: "https://stackoverflow.com/users/story/9660700",
           icon: "fab fa-stack-overflow"
@@ -146,10 +142,10 @@ export default {
         { href: "https://www.instagram.com/matricar", icon: "fab fa-instagram" }
       ],
       text1: ["Front-End Developer", "Web Developer", "Web Designer"],
-      leftImage: "https://i.imgur.com/bU50uS9.jpg",
-      rightImage: "https://i.imgur.com/z3ZoEEw.jpg",
-      leftImage2: "https://i.imgur.com/SXBitjh.jpg",
-      rightImage2: "https://i.imgur.com/Dcz2PGx.jpg",
+      leftImage2: "https://scontent.fhan17-1.fna.fbcdn.net/v/t39.30808-6/258386080_3032877980285296_8901853769749016434_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=174925&_nc_ohc=DI4XdyKj9TsAX9hWNoz&_nc_ht=scontent.fhan17-1.fna&oh=00_AfBRfrY-oQcnstkahwzCuSsFpKCFHrFB5IVfUDKvamng1A&oe=64788173",
+      rightImage2: "https://scontent.fhan17-1.fna.fbcdn.net/v/t39.30808-6/319426570_3317293398510418_3402347283233612840_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=174925&_nc_ohc=QTD5ANWblWIAX-RfICN&_nc_ht=scontent.fhan17-1.fna&oh=00_AfBOlfTpNB40441VcDGlFYfsJb-Ky7ovg7zQvG9q2s6VFA&oe=647925A3",
+      leftImage: "https://scontent.fhan17-1.fna.fbcdn.net/v/t39.30808-6/258386080_3032877980285296_8901853769749016434_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=174925&_nc_ohc=DI4XdyKj9TsAX9hWNoz&_nc_ht=scontent.fhan17-1.fna&oh=00_AfBRfrY-oQcnstkahwzCuSsFpKCFHrFB5IVfUDKvamng1A&oe=64788173",
+      rightImage: "https://scontent.fhan17-1.fna.fbcdn.net/v/t39.30808-6/319426570_3317293398510418_3402347283233612840_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=174925&_nc_ohc=QTD5ANWblWIAX-RfICN&_nc_ht=scontent.fhan17-1.fna&oh=00_AfBOlfTpNB40441VcDGlFYfsJb-Ky7ovg7zQvG9q2s6VFA&oe=647925A3",
       sliderLine: 0,
       hSize: 0,
       sliderPosition: 0.5

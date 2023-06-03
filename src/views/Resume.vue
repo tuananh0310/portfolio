@@ -137,32 +137,20 @@
 <script>
 export default {
   metaInfo: {
-    title: "Resume",
-    titleTemplate: "%s ← Eldin's Space",
+    title: 'Resume',
+    titleTemplate: "%s ← Tuan anhLee",
     meta: [
-      { name: "viewport", content: "width=device-width, initial-scale=1" },
       {
-        name: "description",
-        content:
-          "Vue NUXT HTML CSS JavaScript Design Adobe XD Photoshop Coding Skills Resume Work Web Developer Front-End"
-      },
-      { charset: "utf-8" },
-      { property: "og:title", content: "Eldin' Space" },
-      { property: "og:site_name", content: "Eldin' Space" },
-      { property: "og:type", content: "website" },
-      { property: "og:url", content: "https://eldin.space" },
-      {
-        property: "og:image",
-        content: "https://i.imgur.com/Dcz2PGx.jpg"
+        name: 'description',
+        content: 'Resume of Tuan anh Lee'
       },
       {
-        property: "og:description",
-        content:
-          "Vue NUXT HTML CSS JavaScript Design Adobe XD Photoshop Coding Skills Resume Work Web Developer Front-End"
+        name: 'keywords',
+        content: 'Resume, Tuan anh Lee, Frontend Developer, Vue, Nuxt, JavaScript, HTML, CSS, Photoshop, Adobe XD, Zeplin'
       }
     ]
   },
-  data() {
+  data () {
     return {
       value: 0,
       buffer1: 0,
@@ -173,30 +161,29 @@ export default {
       buffer6: 0,
       bufferValue: 100,
       interval: 0
-    };
+    }
   },
-  mounted() {
-    this.startBuffer();
+  mounted () {
+    this.startBuffer()
   },
 
-  beforeDestroy() {
-    clearInterval(this.interval);
+  beforeDestroy () {
+    clearInterval(this.interval)
   },
 
   methods: {
-    startBuffer() {
+    startBuffer () {
       this.interval = setInterval(() => {
-        this.buffer1 = 90;
-        this.buffer2 = 85;
-        this.buffer3 = 80;
-        this.buffer4 = 80;
-        this.buffer5 = 90;
-        this.buffer6 = 70;
-      }, 800);
+        this.buffer1 = 90
+        this.buffer2 = 85
+        this.buffer3 = 80
+        this.buffer4 = 80
+        this.buffer5 = 90
+        this.buffer6 = 70
+      }, 800)
     }
   }
-};
+}
 </script>
 <style >
 </style>
-

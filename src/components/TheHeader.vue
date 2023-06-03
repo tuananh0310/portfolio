@@ -37,8 +37,8 @@
     <v-toolbar flat dense color="transparent" scroll-off-screen>
       <v-toolbar-side-icon class="hidden-md-and-up" @click.stop="drawer = !drawer"></v-toolbar-side-icon>
       <v-toolbar-title class="headline">
-        <span class="font-weight-light">Eldin</span>
-        <span class="green--text">Zaimovic</span>
+        <span class="font-weight-light">Tuan anh</span>
+        <span class="green--text">Lee</span>
       </v-toolbar-title>
       <v-spacer></v-spacer>
       <v-btn @click="changeTheme" depressed small icon class="hidden-md-and-up">
@@ -68,17 +68,17 @@ export default {
       type: Boolean
     }
   },
-  data() {
+  data () {
     return {
       drawer: null
-    };
+    }
   },
   methods: {
-    changeTheme() {
-      this.$emit("changeTheme", this.goDark);
+    changeTheme () {
+      this.$emit('changeTheme', this.goDark)
     }
   }
-};
+}
 </script>
 
 <style >
