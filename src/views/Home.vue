@@ -48,7 +48,7 @@
             </h3>
             <div>
               <p>
-                Hello! I’m Tuan anhLee 123. I'm a software developer who
+                Hello! I’m Tuan anhLee. I'm a software developer who
                 is passionate about Php<span
                   class="green--text font-weight-bold"
                 >VUE</span>, building great user experiences,
