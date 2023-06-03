@@ -1,8 +1,10 @@
 {
-  "name": "eldin-space-vue",
+  "name": "anhlxt",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://tuananh0310.github.io/portfolio/",
   "scripts": {
+    "deploy": "npm run build && gh-pages -d dist",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
@@ -30,6 +32,7 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.2.3",
+    "gh-pages": "^5.0.0",
     "stylus": "^0.54.8",
     "stylus-loader": "^3.0.1",
     "vue-cli-plugin-vuetify": "^0.5.0",
