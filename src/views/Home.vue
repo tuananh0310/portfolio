@@ -57,7 +57,7 @@
             </div>
           </div>
         </v-card-title>
-        <v-card-actions class="hidden-sm-and-down">
+        <v-card-actions class="hidden-sm-and-down justify-center">
           <v-btn
             v-for="icon in icons"
             :key="icon.icon"
@@ -122,30 +122,26 @@ export default {
     return {
       icons: [
         { href: "https://github.com/tuananh0310", icon: "fab fa-github" },
+        { href: "https://twitter.com/lxuntunah", icon: "fab fa-twitter" },
+        // {
+        //   href: "https://www.linkedin.com/in/eldin-zaimovic",
+        //   icon: "fab fa-linkedin-in"
+        // },
+        // {
+        //   href: "https://www.xing.com/profile/Eldin_Zaimovic?sc_o=mxb_p",
+        //   icon: "fab fa-xing"
+        // },
         {
-          href: "https://stackoverflow.com/users/story/9660700",
-          icon: "fab fa-stack-overflow"
-        },
-        { href: "https://twitter.com/EldinMatricar", icon: "fab fa-twitter" },
-        {
-          href: "https://www.linkedin.com/in/eldin-zaimovic",
-          icon: "fab fa-linkedin-in"
-        },
-        {
-          href: "https://www.xing.com/profile/Eldin_Zaimovic?sc_o=mxb_p",
-          icon: "fab fa-xing"
-        },
-        {
-          href: "https://www.facebook.com/EldinVasVoli",
+          href: "https://www.facebook.com/tuananhzzzzzz/",
           icon: "fab fa-facebook-f"
         },
-        { href: "https://www.instagram.com/matricar", icon: "fab fa-instagram" }
+        { href: "https://www.instagram.com/atrogtihiu/", icon: "fab fa-instagram" }
       ],
       text1: ["Front-End Developer", "Web Developer", "Web Designer"],
-      leftImage2: "https://scontent.fhan17-1.fna.fbcdn.net/v/t39.30808-6/258386080_3032877980285296_8901853769749016434_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=174925&_nc_ohc=DI4XdyKj9TsAX9hWNoz&_nc_ht=scontent.fhan17-1.fna&oh=00_AfBRfrY-oQcnstkahwzCuSsFpKCFHrFB5IVfUDKvamng1A&oe=64788173",
-      rightImage2: "https://scontent.fhan17-1.fna.fbcdn.net/v/t39.30808-6/319426570_3317293398510418_3402347283233612840_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=174925&_nc_ohc=QTD5ANWblWIAX-RfICN&_nc_ht=scontent.fhan17-1.fna&oh=00_AfBOlfTpNB40441VcDGlFYfsJb-Ky7ovg7zQvG9q2s6VFA&oe=647925A3",
-      leftImage: "https://scontent.fhan17-1.fna.fbcdn.net/v/t39.30808-6/258386080_3032877980285296_8901853769749016434_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=174925&_nc_ohc=DI4XdyKj9TsAX9hWNoz&_nc_ht=scontent.fhan17-1.fna&oh=00_AfBRfrY-oQcnstkahwzCuSsFpKCFHrFB5IVfUDKvamng1A&oe=64788173",
-      rightImage: "https://scontent.fhan17-1.fna.fbcdn.net/v/t39.30808-6/319426570_3317293398510418_3402347283233612840_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=174925&_nc_ohc=QTD5ANWblWIAX-RfICN&_nc_ht=scontent.fhan17-1.fna&oh=00_AfBOlfTpNB40441VcDGlFYfsJb-Ky7ovg7zQvG9q2s6VFA&oe=647925A3",
+      leftImage2: "https://i.ibb.co/Y0wqHfF/132609301-2787100841529679-5932591408080452072-n.jpg",
+      rightImage2: "https://i.ibb.co/ySJY1c4/135276546-2792917140948049-1618936471956078864-n.jpg",
+      leftImage: "https://i.ibb.co/Y0wqHfF/132609301-2787100841529679-5932591408080452072-n.jpg",
+      rightImage: "https://i.ibb.co/ySJY1c4/135276546-2792917140948049-1618936471956078864-n.jpg",
       sliderLine: 0,
       hSize: 0,
       sliderPosition: 0.5
