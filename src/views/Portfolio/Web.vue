@@ -172,20 +172,20 @@ export default {
             tech4: 'JavaScript'
           },
           poster: 'https://i.imgur.com/zTMJhGk.jpg'
-        },
-        {
-          dialog: false,
-          title: 'My Old Web Portfolio',
-          git: 'https://github.com/EldinZaimovic/EldinZaimovic.github.io',
-          demo: 'https://eldinzaimovic.github.io/index.html',
-          tech: {
-            tech1: 'HTML',
-            tech2: 'CSS',
-            tech3: 'JavaScript',
-            tech4: 'jQuery'
-          },
-          poster: 'https://i.imgur.com/AW7CXD5.jpg'
         }
+        // {
+        //   dialog: false,
+        //   title: 'My Old Web Portfolio',
+        //   git: 'https://github.com/EldinZaimovic/EldinZaimovic.github.io',
+        //   demo: 'https://eldinzaimovic.github.io/index.html',
+        //   tech: {
+        //     tech1: 'HTML',
+        //     tech2: 'CSS',
+        //     tech3: 'JavaScript',
+        //     tech4: 'jQuery'
+        //   },
+        //   poster: 'https://i.imgur.com/AW7CXD5.jpg'
+        // }
       ]
     }
   }
