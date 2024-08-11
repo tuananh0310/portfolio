@@ -85,13 +85,9 @@
         </h2>
         <br>
         <strong>VUE/NUXT</strong>
-        <v-progress-linear v-model="buffer4" :buffer-value="bufferValue" color="green" height="16"></v-progress-linear>
         <strong>HTML/CSS/JavaScript</strong>
-        <v-progress-linear v-model="buffer6" :buffer-value="bufferValue" color="green" height="16"></v-progress-linear>
         <strong>PHP/LARAVEL</strong>
-        <v-progress-linear v-model="buffer6" :buffer-value="bufferValue" color="green" height="16"></v-progress-linear>
         <strong>AWS</strong>
-        <v-progress-linear v-model="buffer6" :buffer-value="bufferValue" color="green" height="16"></v-progress-linear>
       </v-flex>
       <div class="mt-4 pt-2">
         <v-btn
