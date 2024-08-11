@@ -7,19 +7,6 @@
           <v-timeline-item color="green" small>
             <v-layout pt-3>
               <v-flex xs4>
-                <div class="caption font-weight-bold green--text">JAN 2022 -</div>
-                <div class="caption font-weight-bold green--text">PRESENT</div>
-              </v-flex>
-              <v-flex class="pl-2">
-                <strong>Full Stack Web Development Course</strong>
-                <div class="caption mb-2">freeCodeCamp</div>
-              </v-flex>
-            </v-layout>
-          </v-timeline-item>
-
-          <v-timeline-item color="green" small>
-            <v-layout pt-3>
-              <v-flex xs4>
                 <div class="caption font-weight-bold green--text">SEP 2017 -</div>
                 <div class="caption font-weight-bold green--text">MAY 2022</div>
               </v-flex>
@@ -52,8 +39,8 @@
           <v-timeline-item color="green" small>
             <v-layout pt-3>
               <v-flex xs4>
-                <div class="caption font-weight-bold green--text">DEC 2022 -</div>
-                <div class="caption font-weight-bold green--text">PRESENT</div>
+                <div class="caption font-weight-bold green--text">AUG 2022 -</div>
+                <div class="caption font-weight-bold green--text">AUG 2024 </div>
               </v-flex>
               <v-flex class="pl-2">
                 <strong>The First One Jsc</strong>
@@ -93,20 +80,6 @@
     <v-layout row justify-center align-center wrap class="mt-4 pt-2">
       <v-flex xs12 sm12 md4 lg5 xl5 class="mx-2 pt-4">
         <h2>
-          <span>Design</span>
-
-          <span class="green--text">Skills</span>
-        </h2>
-        <br>
-        <strong>Photoshop</strong>
-        <v-progress-linear v-model="buffer1" :buffer-value="bufferValue" color="green" height="16"></v-progress-linear>
-        <strong>Adobe XD</strong>
-        <v-progress-linear v-model="buffer2" :buffer-value="bufferValue" color="green" height="16"></v-progress-linear>
-        <strong>Zeplin</strong>
-        <v-progress-linear v-model="buffer3" :buffer-value="bufferValue" color="green" height="16"></v-progress-linear>
-      </v-flex>
-      <v-flex xs12 sm12 md4 lg5 xl5 class="mx-2 pt-4">
-        <h2>
           <span>Coding</span>
           <span class="green--text">Skills</span>
         </h2>
@@ -116,6 +89,8 @@
         <strong>HTML/CSS/JavaScript</strong>
         <v-progress-linear v-model="buffer6" :buffer-value="bufferValue" color="green" height="16"></v-progress-linear>
         <strong>PHP/LARAVEL</strong>
+        <v-progress-linear v-model="buffer6" :buffer-value="bufferValue" color="green" height="16"></v-progress-linear>
+        <strong>AWS</strong>
         <v-progress-linear v-model="buffer6" :buffer-value="bufferValue" color="green" height="16"></v-progress-linear>
       </v-flex>
       <div class="mt-4 pt-2">
