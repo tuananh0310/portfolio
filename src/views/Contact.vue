@@ -13,12 +13,12 @@
         </div>
         <div class="py-4 subheading font-weight-bold">
           <v-icon large color="green" left>fas fa-envelope</v-icon>
-          <span>anhlxt@</span>
-          <span class="green--text">thefirstone.jp</span>
+          <span>tuananhptit0310@</span>
+          <span class="green--text">gmail.com</span>
         </div>
         <div class="py-4 subheading font-weight-bold">
           <v-icon large color="green" left>fas fa-phone</v-icon>
-          <span>+96</span>
+          <span>+8496</span>
           <span class="green--text">798 3582</span>
         </div>
         <div class="py-4 subheading font-weight-bold">
@@ -34,7 +34,7 @@
           <span class="green--text">Form</span>
         </h2>
 
-        <form method="POST" action="https://formspree.io/eldin@zaimovic.com">
+        <form method="POST" action="https://formspree.io/f/xanwjdrr">
           <v-text-field
             name="name"
             color="green"
