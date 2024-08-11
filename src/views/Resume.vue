@@ -84,9 +84,9 @@
           <span class="green--text">Skills</span>
         </h2>
         <br>
-        <strong>VUE/NUXT</strong>
-        <strong>HTML/CSS/JavaScript</strong>
-        <strong>PHP/LARAVEL</strong>
+        <strong>VUE/NUXT, </strong>
+        <strong>HTML/CSS/JavaScript, </strong>
+        <strong>PHP/LARAVEL, </strong>
         <strong>AWS</strong>
       </v-flex>
       <div class="mt-4 pt-2">
